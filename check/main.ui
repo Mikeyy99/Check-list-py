@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>786</width>
+    <height>612</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+background-color:#1C3879;
+}
+QListWidget{
+background-color:#607EAA;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:beige;
+margin:10%;
+min-width:10em;
+padding:6px;
+font:14pt;
+}
+QPushButton{
+background-color:#607EAA;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:beige;
+margin-left:10%;
+margin-right:10%;
+font:bold 14pt;
+min-width:10em;
+padding:6px;
+}
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="todo_listWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>761</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget{
+background-color:#1C3879;
+}
+QListWidget{
+background-color:#607EAA;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:beige;
+margin:10%;
+min-width:10em;
+padding:6px;
+font:14pt;
+}
+QPushButton{
+background-color:dark grey;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:beige;
+margin-left:10%;
+margin-right:10%;
+font:bold 14pt;
+min-width:10em;
+padding:6px;
+}
+QProgressBar{
+background-color:red;
+font: 14px;
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>560</y>
+      <width>266</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Clear checks</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
